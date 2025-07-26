@@ -1,0 +1,27 @@
+# Stage 1: build the TypeScript app
+FROM node:20-bullseye-slim AS builder
+WORKDIR /app
+
+# Install deps and build
+COPY package*.json ./
+RUN npm ci
+COPY . .
+RUN npm run build
+
+# Stage 2: production image
+FROM node:20-bullseye-slim AS runner
+WORKDIR /app
+
+# Set environment and install only production deps
+ENV NODE_ENV=production
+COPY package*.json ./
+RUN npm ci --only=production
+
+# Copy built output from builder
+COPY --from=builder /app/dist ./dist
+
+# Use non-root user (node)
+USER node
+
+EXPOSE 3000
+CMD ["node", "dist/index.js"]

@@ -1,0 +1,32 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        Int     @id @default(autoincrement())
+  email     String  @unique
+  password  String
+  host      String
+  port      Int
+  emails    Email[]
+  createdAt DateTime @default(now())
+}
+
+model Email {
+  id        Int      @id @default(autoincrement())
+  subject   String
+  sender    String
+  to        String
+  date      DateTime
+  body      String
+  folder String @default("INBOX") // ✅ NEW field with default to avoid migration error
+  userId    Int
+  user      User     @relation(fields: [userId], references: [id])
+  createdAt DateTime @default(now())
+  category  String?     // ← Add this line
+}

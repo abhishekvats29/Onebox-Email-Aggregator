@@ -1,0 +1,9 @@
+-- CreateTable
+CREATE TABLE "ImapAccount" (
+    "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    "email" TEXT NOT NULL,
+    "password" TEXT NOT NULL,
+    "host" TEXT NOT NULL,
+    "port" INTEGER NOT NULL,
+    "createdAt" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
