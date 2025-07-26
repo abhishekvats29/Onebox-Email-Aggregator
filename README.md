@@ -38,3 +38,43 @@ Onebox Email Aggregator is a full-stack web application designed to aggregate an
 - Docker (optional, for backend containerization)
 
 
+### Backend Setup
+Navigate to the backend folder (if applicable):
+
+cd backend
+Install dependencies:
+npm install
+Configure environment variables:
+
+Create a .env file in the backend root.
+Add necessary environment variables such as email credentials, API keys, ports, etc.
+
+Run the backend server locally:
+
+npm run dev
+Or build and run with Docker:
+
+docker build -t onebox-backend .
+docker run -p 3000:3000 onebox-backend
+
+### Frontend Setup
+Navigate to the frontend folder:
+
+cd frontend
+Install dependencies:
+
+npm install
+Run the React development server:
+
+npm run dev
+Access the app in your browser at http://localhost:5173 (default Vite port).
+
+---
+### Usage
+
+- Navigate to the email list page to view aggregated emails.
+- Use the search bar to filter emails.
+- Open the chatbot from the icon to get AI-simulated reply suggestions.
+- Type "clear chat" in the chatbot to reset the conversation.
+
+
