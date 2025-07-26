@@ -9,7 +9,7 @@ Onebox Email Aggregator is a full-stack web application designed to aggregate an
 
 Below is the main email list view of the application:
 
-![Email List View] <img width="1920" height="885" alt="Image" src="https://github.com/user-attachments/assets/ed73309f-142e-41a2-9f6a-17e965789d89" />
+![Email List View] <img width="1920" height="866" alt="Image" src="https://github.com/user-attachments/assets/fab59945-91c1-4cdb-8b37-8184253722fe" />
 
 ---
 ## Features
