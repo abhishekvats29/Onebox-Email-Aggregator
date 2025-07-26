@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'https://onebox-backend-apx8.onrender.com/',
+        target: 'http://localhost:3000/api/emails',
         changeOrigin: true,
         secure: false,
       },
