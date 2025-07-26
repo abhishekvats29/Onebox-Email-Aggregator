@@ -19,6 +19,7 @@ Onebox Email Aggregator is a full-stack web application designed to aggregate an
 
 ## Architecture
 
+- **Language**: TypeScript language has been used for both frontned and backend.
 - **Backend**: Node.js/Express server managing IMAP connections, email fetching, and reply suggestion logic.
 - **Frontend**: React application using React Router for navigation and Bootstrap for styling.
 - **Chatbot**: Frontend component with local reply logic simulating AI suggested replies.
@@ -36,8 +37,4 @@ Onebox Email Aggregator is a full-stack web application designed to aggregate an
 - Git
 - Docker (optional, for backend containerization)
 
-### Clone the repository
 
-```bash
-git clone https://github.com/yourusername/Onebox-Email-Aggregator.git
-cd Onebox-Email-Aggregator
