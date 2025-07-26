@@ -14,7 +14,7 @@ const EmailList = () => {
   const fetchEmails = async () => {
     setLoading(true);
     try {
-      const res = await axios.get('http://localhost:3000/api/emails');
+      const res = await axios.get('https://onebox-backend-apx8.onrender.com');
       setEmails(res.data);
     } catch (err) {
       console.error('Error fetching emails:', err);
