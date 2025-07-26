@@ -14,12 +14,14 @@ Below is the main email list view of the application:
 ---
 ## Features
 
-- **Multi-account email aggregation**: Connect multiple email accounts and fetch emails in real-time.
-- **Email search and filtering**: Search emails by keywords and filter by folders/accounts.
-- **AI-powered suggested replies**: Chatbot suggests relevant replies based on email content using a simulated vector index.
+- **Real-Time Email Synchronization**: - Sync multiple IMAP accounts in real-time - minimum 2.
+- **Searchable Storage using Elasticsearch**: Search emails by keywords and filter by folders/accounts.
+- **AI-Based Email Categorization**: Implement an AI model to categorize emails.
+- **Slack & Webhook Integration**: Send Slack notifications for every new Interested email.
 - **Chatbot interface**: Interactive chatbot UI embedded in the frontend for quick replies.
 - **Responsive UI**: Built with React and Bootstrap for a clean and responsive design.
 - **Dockerized backend**: Easily deploy backend using Docker.
+- **AI-Powered Suggested Replies**: Chatbot suggests relevant replies based on email content using a simulated vector index.
 
 ---
 
