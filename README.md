@@ -77,4 +77,13 @@ Access the app in your browser at http://localhost:5173 (default Vite port).
 - Open the chatbot from the icon to get AI-simulated reply suggestions.
 - Type "clear chat" in the chatbot to reset the conversation.
 
+---
+## License
+
+This repository contains code developed as part of a private assignment.  
+The code is intended solely for the purpose of the assignment and evaluation.  
+Unauthorized use, distribution, or commercial use is prohibited without explicit permission.
+
+© 2025 Abhishek Vats. All rights reserved.
+
 
