@@ -31,7 +31,7 @@ Below is the main email list view of the application:
 - **Backend**: Node.js/Express server managing IMAP connections, email fetching, and reply suggestion logic.
 - **Frontend**: React application using React Router for navigation and Bootstrap for styling.
 - **Chatbot**: Frontend component with local reply logic simulating AI suggested replies.
-- **Database**: (Optional) For storing user preferences or email metadata (not included by default).
+- **Database**: SQLite and Prisma For storing user preferences or email metadata.
 - **Deployment**: Backend can be containerized using Docker for easy deployment.
 
 ---
