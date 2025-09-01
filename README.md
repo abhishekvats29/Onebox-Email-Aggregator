@@ -47,8 +47,7 @@ Below is the main email list view of the application:
 
 
 ### Backend Setup
-Navigate to the backend folder (if applicable):
-
+Navigate to the backend folder
 cd backend
 Install dependencies:
 npm install
