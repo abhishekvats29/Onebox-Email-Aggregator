@@ -24,3 +24,9 @@ The UI is styled with **Bootstrap** and includes a chatbot component for AI-base
 - Node.js (v16+ recommended)
 - npm or yarn
 
+### Frontend Setup
+- Navigate to the frontend folder:
+- cd frontend Install dependencies:
+- npm install Run the React development server:
+- npm run dev Access the app in your browser at http://localhost:5173 (default Vite port).
+
