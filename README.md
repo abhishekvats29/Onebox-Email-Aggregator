@@ -5,7 +5,7 @@
 Onebox Email Aggregator is a full-stack web application designed to aggregate and manage emails from multiple accounts. It includes a backend service that fetches and processes emails, and a React frontend for displaying and interacting with emails. The project also features an AI-powered chatbot that suggests replies based on email content.
 
 ---
-## Snapshot
+## Demo Snapshot
 
 Below is the main email list view of the application:
 
