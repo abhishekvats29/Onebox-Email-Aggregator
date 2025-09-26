@@ -88,7 +88,7 @@ Access the app in your browser at http://localhost:5173 (default Vite port).
 ## License
 
 This repository contains code developed as part of an assignment.  
-The code is intended solely for the purpose of the assignment and Gaining Practical knowledge.  
+The code is intended solely for the purpose of Gaining Practical knowledge.  
 Unauthorized use, distribution, or commercial use is prohibited without explicit permission.
 
 © 2025 Abhishek Vats. All rights reserved.
